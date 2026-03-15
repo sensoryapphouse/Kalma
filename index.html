@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Kalma</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="main-screen" class="screen active">
+    <canvas id="kalma-canvas"></canvas>
+
+    <!-- Splash overlay with particle text -->
+    <div id="splash-overlay">
+      <canvas id="splash-canvas"></canvas>
+    </div>
+
+    <!-- Mode navigation -->
+    <button id="btn-prev-mode" class="mode-btn mode-left" title="Previous mode">&#9664;</button>
+    <button id="btn-next-mode" class="mode-btn mode-right" title="Next mode">&#9654;</button>
+  </div>
+  <script src="kalma.js"></script>
+</body>
+</html>
